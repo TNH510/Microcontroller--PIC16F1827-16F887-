@@ -1,0 +1,38 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1508 ]
+[d frameptr 6 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"33 H:\Code\Vi xu li\week_3_1.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+"1042 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1508.h
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1092
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1131
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1867
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"1912
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+"1951
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"28 H:\Code\Vi xu li\week_3_1.X\newmain.c
+[v _A A `[10]i  1 e 20 0 ]
+"29
+[v _B B `[10]i  1 e 20 0 ]
+"30
+[v _C C `[10]i  1 e 20 0 ]
+"31
+[v _i i `i  1 e 2 0 ]
+"32
+[v _j j `i  1 e 2 0 ]
+"33
+[v _main main `(v  1 e 1 0 ]
+{
+"54
+} 0

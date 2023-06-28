@@ -1,0 +1,94 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1509 ]
+[d frameptr 6 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"46 H:\Code\Vi xu li\week_7_1.X\lcd.c
+[v _LCD_Initialize LCD_Initialize `(v  1 e 1 0 ]
+"79
+[v _LCDWriteNibble LCDWriteNibble `(v  1 e 1 0 ]
+"107
+[v _LCDPutChar LCDPutChar `(v  1 e 1 0 ]
+"122
+[v _LCDPutCmd LCDPutCmd `(v  1 e 1 0 ]
+"139
+[v _LCDPutStr LCDPutStr `(v  1 e 1 0 ]
+"152
+[v _LCDGoto LCDGoto `(v  1 e 1 0 ]
+"24 H:\Code\Vi xu li\week_7_1.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+"1131 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1509.h
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S49 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"1968
+[u S58 . 1 `S49 1 . 1 0 ]
+[v _LATCbits LATCbits `VES58  1 e 1 @270 ]
+"24 H:\Code\Vi xu li\week_7_1.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+{
+"35
+} 0
+"46 H:\Code\Vi xu li\week_7_1.X\lcd.c
+[v _LCD_Initialize LCD_Initialize `(v  1 e 1 0 ]
+{
+"76
+} 0
+"139
+[v _LCDPutStr LCDPutStr `(v  1 e 1 0 ]
+{
+"141
+[v LCDPutStr@i i `uc  1 a 1 10 ]
+"139
+[v LCDPutStr@str str `*.25DCuc  1 p 2 5 ]
+"150
+} 0
+"107
+[v _LCDPutChar LCDPutChar `(v  1 e 1 0 ]
+{
+[v LCDPutChar@ch ch `uc  1 a 1 wreg ]
+[v LCDPutChar@ch ch `uc  1 a 1 wreg ]
+"109
+[v LCDPutChar@ch ch `uc  1 a 1 4 ]
+"119
+} 0
+"152
+[v _LCDGoto LCDGoto `(v  1 e 1 0 ]
+{
+[v LCDGoto@pos pos `uc  1 a 1 wreg ]
+[v LCDGoto@pos pos `uc  1 a 1 wreg ]
+[v LCDGoto@ln ln `uc  1 p 1 5 ]
+"155
+[v LCDGoto@pos pos `uc  1 a 1 8 ]
+"166
+} 0
+"122
+[v _LCDPutCmd LCDPutCmd `(v  1 e 1 0 ]
+{
+[v LCDPutCmd@ch ch `uc  1 a 1 wreg ]
+[v LCDPutCmd@ch ch `uc  1 a 1 wreg ]
+"124
+[v LCDPutCmd@ch ch `uc  1 a 1 4 ]
+"136
+} 0
+"79
+[v _LCDWriteNibble LCDWriteNibble `(v  1 e 1 0 ]
+{
+[v LCDWriteNibble@ch ch `uc  1 a 1 wreg ]
+[v LCDWriteNibble@ch ch `uc  1 a 1 wreg ]
+[v LCDWriteNibble@rs rs `uc  1 p 1 0 ]
+"81
+[v LCDWriteNibble@ch ch `uc  1 a 1 1 ]
+"105
+} 0

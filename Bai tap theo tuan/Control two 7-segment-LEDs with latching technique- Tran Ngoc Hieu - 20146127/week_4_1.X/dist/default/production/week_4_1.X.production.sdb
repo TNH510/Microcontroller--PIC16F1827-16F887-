@@ -1,0 +1,61 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1509 ]
+[d frameptr 6 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"26 H:\Code\Vi xu li\week_4_1.X\newmain.c
+[v _hienthi hienthi `(v  1 e 1 0 ]
+"43
+[v _main main `(v  1 e 1 0 ]
+[s S43 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1148 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1509.h
+[u S52 . 1 `S43 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES52  1 e 1 @142 ]
+[s S22 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"1968
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _LATCbits LATCbits `VES31  1 e 1 @270 ]
+"20 H:\Code\Vi xu li\week_4_1.X\newmain.c
+[v _A A `[80]i  1 e 160 @8528 ]
+"43
+[v _main main `(v  1 e 1 0 ]
+{
+"45
+[v main@b b `i  1 a 2 11 ]
+"44
+[v main@a a `i  1 a 2 9 ]
+"66
+} 0
+"26
+[v _hienthi hienthi `(v  1 e 1 0 ]
+{
+[v hienthi@a a `uc  1 a 1 wreg ]
+"27
+[v hienthi@i i `i  1 a 2 6 ]
+"26
+[v hienthi@a a `uc  1 a 1 wreg ]
+[v hienthi@b b `uc  1 p 1 0 ]
+"28
+[v hienthi@a a `uc  1 a 1 5 ]
+"41
+} 0
